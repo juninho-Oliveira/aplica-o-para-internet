@@ -1,11 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 main h1 {
+    font-family: "Baskervville SC", serif;
     cursor: pointer;
     font-size: 42px;
 }
@@ -13,5 +20,17 @@ main h1 {
 main h1:hover {
     transition: 2s;
     color: aqua;
-    font-size: 32px;
+}
+
+
+
+p {
+    font-family: "Baskervville SC", serif;
+    text-align: center;
+}
+
+main p:hover  {
+    transition: 2s;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
 }
