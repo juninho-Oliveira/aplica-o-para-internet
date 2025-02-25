@@ -4,27 +4,27 @@
 
 <pre>
             
-            >!DOCTYPE html>
-        >html lang="pt-br"> // linguagem da página web pt-br 
-        >head> 
-            >meta charset="UTF-8">
-            >meta name="viewport" content="width=device-width, initial-scale=1.0">
-            >link rel="stylesheet" href="style.css"> // link de style
-            >title>aula-01>/title> // titulo da página 
-        >/head>
-        >body> // corpo do html
-            >main> // tag principal 
-                >h1>Ola Mundo !>/h1> // tag de titulo 
-            >/main>
-        >/body>
-        >/html>
+            &lt!DOCTYPE html&gt
+        &lthtml lang="pt-br"&gt // linguagem da página web pt-br 
+        &lthead&gt
+            &ltmeta charset="UTF-8"&gt
+            &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+            &ltlink rel="stylesheet" href="style.css"&gt // link de style
+            &lttitle&ltaula-01&lt/title&gt // titulo da página 
+        &lt/head&gt
+        &ltbody&gt // corpo do html
+            &ltmain&gt// tag principal 
+                &lth1&gtOla Mundo !&lt/h1&gt // tag de titulo 
+            &lt/main&gt
+        &lt/body&gt
+        &lt/html&gt
 
 </pre> 
 
 ### Links e programas para cores e cores
 
 - rbg 
-- #ffff
+- hexadecimal (#ffff)
 - just colot picker
 - seletor de cores googles
 
