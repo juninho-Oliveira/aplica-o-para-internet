@@ -21,6 +21,13 @@
 
 </pre> 
 
+### Links e programas para cores e cores
+
+- rbg 
+- #ffff
+- just colot picker
+- seletor de cores googles
+
 
 
 

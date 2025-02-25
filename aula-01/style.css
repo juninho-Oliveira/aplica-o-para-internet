@@ -23,7 +23,6 @@ main h1:hover {
 }
 
 
-
 p {
     font-family: "Baskervville SC", serif;
     text-align: center;
@@ -32,5 +31,19 @@ p {
 main p:hover  {
     transition: 2s;
     cursor: pointer;
-    color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+img {
+    cursor: pointer;
+    width: 10rem;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+img:hover{
+    transition: 2s;
+    width: 10rem;
+    border-radius: 50%;
+    border: 3px solid aqua;
 }
