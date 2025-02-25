@@ -1,6 +1,6 @@
 # aplicaçao-para-internet
 
-## primeira aula estrutura HTML
+## primeira aula estrutura basica HTML
 
 <pre>
             
