@@ -23,7 +23,7 @@
         &lt/body&gt
         &lt/html&gt
 
-- Aula 02
+- Desafio aula 01
 ----------------------------------------------------------
 
     &lt!DOCTYPE html&gt
@@ -57,7 +57,9 @@
 
 
 - Desafio da aula 02
+- <a href="https://www.w3schools.com/">W3 schools</a>
 ----------------------------------------------------------
+
 
 
 
@@ -70,7 +72,7 @@
 - rbg 
 - hexadecimal (#ffff)
 - just colot picker
-- seletor de cores googles
+- seletor de cores google
 
 
 
