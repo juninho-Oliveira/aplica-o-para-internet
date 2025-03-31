@@ -1,0 +1,33 @@
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+}
+
+table {
+    text-align: center;
+}
+
+th {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    background-color: red;
+    padding: 5px;
+    border: 1px solid rgb(163, 160, 160);
+}
+
+.blue {
+    background-color: rgb(7, 125, 235);
+}
+
+td {
+    cursor: pointer;
+    font-family: "Libre Baskerville", serif;
+    background-color: yellow;
+    padding: 5px;
+    border: 1px solid rgb(163, 160, 160);
+}
+
+td:hover {
+    transition: 1s;
+    color: rgb(255, 0, 0);
+}
