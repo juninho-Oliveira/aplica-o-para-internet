@@ -34,8 +34,16 @@ td {
     padding: 5px;
     border: 1px solid rgb(163, 160, 160);
 }
+
 img {
-    width: 100px;
+    width: 50px;
+}
+
+.imagem {
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 a {
