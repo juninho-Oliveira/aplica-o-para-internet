@@ -4,16 +4,24 @@ h1 {
 }
 
 table {
+    width: 90%;
     text-align: center;
 }
 
 th {
+    cursor: pointer;
     font-family: "Bebas Neue", sans-serif;
     font-size: 20px;
     background-color: red;
     padding: 5px;
     border: 1px solid rgb(163, 160, 160);
 }
+
+th:hover {
+    transition: 1s;
+    color: white;
+}
+
 
 .blue {
     background-color: rgb(7, 125, 235);
