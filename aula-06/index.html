@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>tabela parte 2</title>
+</head>
+
+<body>
+    <main>
+        <center>
+            <h1>Tabela parte 2</h1>
+        </center>
+
+        <center>
+            <table>
+                <thead>
+                    <tr><!--Tr de linha -->
+                        <th colspan="2">L1 C1</th>
+                        <th>L1 C2</th>
+                        <!--<th>L1 C3</th>-->
+                        <!--(colspan="2")para mesclar a linha-->
+                    </tr>
+                </thead>
+                <tbody><!--tag de demarcação com fechamento-->
+                    <tr>
+                        <td>L2 C1</td>
+                        <td colspan="2">L2 C2</td>
+                        <!--<td>L2 C3</td>-->
+                    </tr>
+
+                    <tr>
+
+                        <td colspan="3">L3 C1</td>
+                        <!--<td>L3 C2</td>
+                        <td>L3 C3</td>-->
+                    </tr>
+
+                    <tr>
+                        <td>L4 C1</td>
+                        <td>L4 C2</td>
+                        <td>L4 C3</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <table>
+                <tbody><!--tag de demarcação com fechamento-->
+                    <tr><!--(rowspan="2") para mesclar a coluna-->
+                        <td rowspan="3">L1 C1</td>
+                        <td>L1 C2</td>
+                        <td>L1 C3</td>
+                    </tr>
+
+                    <tr>
+                        <!--<td>L2 C1</td>-->
+                        <td>L2 C2</td>
+                        <td rowspan="2">L2 C3</td>
+                    </tr>
+
+                    <tr>
+                        <!--<td>L3 C1</td>-->
+                        <td>L3 C2</td>
+                        <!--<td>L3 C3</td>-->
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </main>
+</body>
+
+</html>
