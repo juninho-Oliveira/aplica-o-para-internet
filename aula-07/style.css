@@ -17,3 +17,7 @@ img {
 .span {
     background-color: aqua;
 }
+
+.girar {
+    writing-mode: vertical-lr;
+}
